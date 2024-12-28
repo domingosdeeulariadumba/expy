@@ -98,7 +98,7 @@ print(simulated_results)
 ab_test.get_experiment_results(n_ctrl = 500, p_ctrl = 0.1, n_trmt = 500, p_trmt = 0.12, plot_type = 'Confidence Intervals')
 ```
 
-💡 A more detailed example regarding the implementation of this tool is available <em> <a href = 'https://www.amazon.com/' target = '_blank'> here.</em> 
+💡 A more detailed example regarding the implementation of this tool is available <em> <a href = 'https://github.com/domingosdeeulariadumba/expy/blob/main/ExpyExamplesNotebook.ipynb' target = '_blank'> here.</em> 
 
 ---
 
