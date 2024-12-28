@@ -66,7 +66,7 @@ ABTesting(bcr, mde, alpha=0.05, power=0.8, absolute_variation=True, two_tailed=T
 
 ---
 
-## Installation
+## Installation and importing the module
 
 ````python
 pip install expy
