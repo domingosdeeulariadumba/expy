@@ -120,7 +120,6 @@ multivariada com Excel®, SPSS® e Stata®.</em> Rio de Janeiro: Elsevier, 2017.
 - GRAVETTER, F. J.; WALLNAU, L. B. <em> <a href = 'https://www.amazon.com/Statistics-Behavioral-Sciences-Standalone-Book/dp/1305504917' target = '_blank'> Statistics for the Behavioral Sciences.</em> 10th ed. Boston:
 Cengage Learning, 2015.
 - SAINANI K. Stanford University. <em> <a href = 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://web.stanford.edu/~kcobb/hrp259/lecture11.ppt&ved=2ahUKEwin0_6qmsuKAxVHUEEAHSzNEt0QFnoECBUQAQ&usg=AOvVaw16arOYUy8mK6FcYHGblX0m' target = '_blank'> Introduction to Sample Size and Power Calculations</em>. Last accessed on Dec 28 2024.
-<br>
 - UDACITY. <em> <a href = 'https://www.udacity.com/course/ab-testing--ud257' target = '_blank'> A/B Testing</em>. Last accessed on Dec 28 2024.
   
 ___
