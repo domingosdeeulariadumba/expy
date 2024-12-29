@@ -1,6 +1,6 @@
 # Expy Python Module
 
-This module aims to make it easier for data scientists, analysts, and engineers to conduct statistically sound experiments. In the core of this module is the `ABTesting` class. This class provides tools for designing, analyzing, and simulating A/B tests.
+This module aims to make it easier for data scientists, analysts, and engineers to conduct statistically sound experiments. At its core is lies the `ABTesting` class. This class provides tools for designing, analyzing, and simulating A/B tests.
 
 ---
 
