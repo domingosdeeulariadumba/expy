@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 class ABTesting:
     '''
     This class provides methods and attributes for design, analysis, and
-    simulation of experiments.
+    simulation of A/B experiments.
     '''
     
     # Initializing the class
