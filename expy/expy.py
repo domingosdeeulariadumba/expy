@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-
+# A class for A/B tests
 class ABTesting:
     '''
     This class provides methods and attributes for design, analysis, and
@@ -69,6 +69,7 @@ class ABTesting:
             (z_alpha * std1 + z_power * std2) / self.effect_size, 2
         )    
         return round(sample_size)
+
     
     # Experiment simulator
     def simulate_experiment_results(self, p_ctrl: float, n_ctrl_inc: int = 0, n_trmt_inc: int = 0, lift: float = .0, summary_table = True, random_state: int = None) -> pd.DataFrame:         
@@ -118,10 +119,10 @@ class ABTesting:
             return exp_results_df 
         else:
             conversion_df = exp_results_df.groupby('group').mean()
-            conversion_df['sample size'] = [n_ctrl, n_trmt]
-            
+            conversion_df['sample size'] = [n_ctrl, n_trmt]            
             return conversion_df.T
-      
+
+    
     # Experiment simulator
     def get_experiment_results(self, n_ctrl: int, p_ctrl: float, n_trmt: int, p_trmt: float, plot_type: str = 'KDE'):
         """
