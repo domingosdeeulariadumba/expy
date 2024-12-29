@@ -202,4 +202,4 @@ class ABTesting:
             recommendation = f'Since {d_hat_max: .2f} (the upper bound for the estimated difference) ≤ {self.effect_size} (the practical significance), it is then recommended to keep the current version!'
         else:
             recommendation = 'There might not have enough Power to draw any conclusion about the experiment results. Thus, it is recommended to conduct some additional tests.'
-        return print(f'\n\n=======================================================================\nNotes:\n[1] {recommendation}')
+        print(f'\n\n=======================================================================\nNotes:\n[1] {recommendation}')
