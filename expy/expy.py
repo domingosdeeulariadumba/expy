@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+
 class ABTesting:
     '''
     This class provides methods and attributes for design, analysis, and
@@ -164,11 +165,11 @@ class ABTesting:
             y_ctrl = norm_ctrl.pdf(x_ctrl)
             
             plt.plot(x_ctrl, y_ctrl, 'r:')
-            plt.fill_between(x_ctrl, 0, y_ctrl, color = 'r', alpha = .25, 
-                             where = (x_ctrl > lower_bound) & (x_ctrl < upper_bound), label = 'Control')
+            plt.fill_between(x_ctrl, 0, y_ctrl, color = 'r', alpha = .25, hatch = '//', 
+                             where = (x_ctrl >= lower_bound) & (x_ctrl <= upper_bound), label = 'Control')
             plt.plot(x_trmt, y_trmt, 'c:')
-            plt.fill_between(x_trmt, 0, y_trmt, color = 'c', alpha = .25, 
-                             where = (x_trmt > d_hat_min) & (x_trmt < d_hat_max), label = 'Treatment')
+            plt.fill_between(x_trmt, 0, y_trmt, color = 'c', alpha = .25, hatch = '//', 
+                             where = (x_trmt >= d_hat_min) & (x_trmt <= d_hat_max), label = 'Treatment')
             plt.axvline(x = .05, linestyle = ':', color = '#04ef62', label = 'MDE')
             plt.yticks([])
             plt.ylim(0)
