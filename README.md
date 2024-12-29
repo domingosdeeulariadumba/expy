@@ -66,11 +66,7 @@ ABTesting(bcr, mde, alpha=0.05, power=0.8, absolute_variation=True, two_tailed=T
 
 ---
 
-## Installation and importing the module
-
-````python
-pip install expy
-````
+## Importing the module
 
 ```python
 from expy import ABTesting
@@ -125,4 +121,4 @@ Cengage Learning, 2015.
 ___
 ## Acknowledgments
 
-This project was mainly possible due to the contribution of Evan Miller regarding A/B testing methodologies and tools. Refer to his <em> <a href = 'https://www.evanmiller.org/ab-testing/sample-size.html' target = '_blank' a> A/B Testing Sample Size Calculator.</em> for more details.
+This project was mainly possible due to the contribution of Evan Miller regarding A/B testing methodologies and tools. Refer to his <em> <a href = 'https://www.evanmiller.org/ab-testing/sample-size.html' target = '_blank' a> A/B Testing Sample Size Calculator</em> for further details.
