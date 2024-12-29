@@ -123,7 +123,7 @@ class ABTesting:
             return conversion_df.T
 
     
-    # a method for experiment results summary
+    # A method for experiment results summary
     def get_experiment_results(self, n_ctrl: int, p_ctrl: float, n_trmt: int, p_trmt: float, plot_type: str = 'KDE'):
         """
         Method for retrieving the experiment results.
