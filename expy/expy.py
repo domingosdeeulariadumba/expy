@@ -41,7 +41,7 @@ class ABTesting:
         # Attributes
         self.bcr = bcr
         self.effect_size = mde if absolute_variation else bcr * mde
-        self.alpha = alpha/2 if two_tailed else alpha
+        self.tail = alpha/2 if two_tailed else alpha
         self.power = power
        
         
@@ -57,7 +57,7 @@ class ABTesting:
         q1, q2 = 1 - self.bcr, 1 - p2 
     
         # Z-scores for significance level and power
-        z_alpha = scs.norm.ppf(1 - self.alpha)    
+        z_alpha = scs.norm.ppf(1 - self.tail)    
         z_power = scs.norm.ppf(self.power)
         
         # Calculating the standard deviations
@@ -152,11 +152,11 @@ class ABTesting:
         # Estimated difference between the two groups and its margin of error
         d_hat = p_trmt - p_ctrl
         norm_trmt = scs.norm(d_hat, pooled_se)
-        d_hat_min, d_hat_max = norm_trmt.ppf(self.alpha), norm_trmt.ppf(1 - self.alpha)
+        d_hat_min, d_hat_max = norm_trmt.ppf(self.tail), norm_trmt.ppf(1 - self.tail)
        
         # Setting the confidence intervals for retaining the null hypothesis
         norm_ctrl = scs.norm(0, pooled_se)
-        lower_bound, upper_bound = norm_ctrl.ppf(self.alpha), norm_ctrl.ppf(1 - self.alpha)
+        lower_bound, upper_bound = norm_ctrl.ppf(self.tail), norm_ctrl.ppf(1 - self.tail)
         
         # Plotting options
         if plot_type == 'KDE':
