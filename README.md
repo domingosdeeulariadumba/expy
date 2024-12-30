@@ -111,7 +111,7 @@ Contributions are welcome! Please fork the repository, create a feature branch, 
 ---
 
 ## References
-- FÁVERO, L. P.; BELFIORE, P. <em> <a href = 'https://www.amazon.com.br/Manual-An%C3%A1lise-Dados-Luiz-F%C3%A1vero/dp/8535270876' target = '_blank'> Manual de análise de dados: estatística e modelagem
+- FÁVERO, L. P.; BELFIORE, P. <em> <a href = 'https://www.amazon.com.br/Manual-An%C3%A1lise-Dados-Luiz-F%C3%A1vero/dp/8535270876' target = '_blank'> Manual de Análise de Dados: estatística e modelagem
 multivariada com Excel®, SPSS® e Stata®.</em> Rio de Janeiro: Elsevier, 2017.
 - GRAVETTER, F. J.; WALLNAU, L. B. <em> <a href = 'https://www.amazon.com/Statistics-Behavioral-Sciences-Standalone-Book/dp/1305504917' target = '_blank'> Statistics for the Behavioral Sciences.</em> 10th ed. Boston:
 Cengage Learning, 2015.
