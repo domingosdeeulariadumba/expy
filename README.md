@@ -32,7 +32,7 @@ The main class provides the following methods and attributes:
 
 #### **Initialization**
 ```python
-ABTesting(bcr, mde, alpha=0.05, power=0.8, absolute_variation=True, two_tailed=True)
+ABTesting(bcr, mde, alpha = 0.05, power = 0.8, absolute_variation = True, two_tailed = True)
 ```
 
 - **bcr**: Baseline Conversion Rate (0 < bcr < 1).
